@@ -16,9 +16,16 @@
     margin: 0 auto;
 }
 .flex-flow{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .header {
     width: 100%;
@@ -39,6 +46,7 @@
     display: inline-block;
     margin-right: 20px;
     height: 50px;
+    cursor: pointer;
 }
 .logo__link__image {
     width: 100%;
@@ -56,7 +64,9 @@
     height: 40px;
     display: block;
     border-radius: 50%;
-    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+            transform: scale(1.4);
 }
 .social-links__link__instagram{
     background-image: url('../../img/icons/instagram.png');
@@ -77,7 +87,9 @@
     height: 40px;
     display: block;
     border-radius: 50%;
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 .social-links__link__twitter{
     background-image: url('../../img/icons/w500h5001347632760twitterold.png');
@@ -169,5 +181,62 @@
     color: #9999ff;
     font-size: 40px;
 }
-
-
+.callback {
+    position: fixed;
+    left: 5%;
+    bottom: 10%;
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #9999ff;
+    border-radius: 50%;
+}
+.callback:hover {
+    background-color: #000000;
+}
+.modal-dialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -o-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+   }
+.modal-dialog:target {
+    display: block;
+    pointer-events: auto;
+}
+.modal-dialog__window {
+    width: 300px;
+    position: relative;
+    margin: 20% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 5px solid #000000;
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+   }
+.close:hover { 
+    background: #9999ff; }   

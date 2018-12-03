@@ -6,7 +6,10 @@
         max-width: 320px;
     }
     .all-content .flex-flow{
-        flex-flow: column nowrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
     }
     .social-links__list {
         width: auto;
