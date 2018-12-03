@@ -1,0 +1,40 @@
+.background-fixed {
+    background: url('../../img/background/allianz-stadium__background__1200x800.jpg');
+    position: fixed;
+    background-position: right bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    width: 1024px;
+    height: auto;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header {
+    height: 50px;
+    background-color: rgba(150 , 150, 150, 0.8);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.logo {
+    width: 30px;
+    height: 50px;
+    padding: 5px
+}
+.logo__link__image {
+    width: 100%;
+}
+.social-links__link{
+
+}
+.social-links__link__link-icon {
+    fill: #333333;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
