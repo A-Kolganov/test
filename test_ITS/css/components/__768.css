@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        width: 100%;
+    }
+    .news {
+        overflow-y: scroll;
+    }
+
+}

@@ -1,13 +1,16 @@
 .background-fixed {
     background: url('../../img/background/allianz-stadium__background__1200x800.jpg');
-    position: fixed;
+    position: relative;
+    background-attachment: fixed;
     background-position: right bottom;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    min-height: 600px;
+    height: calc(100vh - 50px);
 }
 .container {
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
     height: auto;
     padding: 0 10px;
     margin: 0 auto;
@@ -18,6 +21,7 @@
     justify-content: space-between;
 }
 .header {
+    width: 100%;
     height: 50px;
     background-color: rgba(150 , 150, 150, 0.8);
 }
@@ -39,17 +43,131 @@
 .logo__link__image {
     width: 100%;
 }
-.social-links__link{
-
+.social-links__list__item {
+    width: 40px;
+    height: 40px;
 }
-.social-links__link__link-icon {
-    fill: #000000;
-    stroke: #777777;
-    width: 32px;
-    height: 32px;
-    background-color: #ffffff;
+.social-links__link__facebook{
+    background-image: url('../../img/icons/md_5a9794da1b10e.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: block;
     border-radius: 50%;
-    padding: 5px;
+    transform: scale(1.4);
+}
+.social-links__link__instagram{
+    background-image: url('../../img/icons/instagram.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+}
+.social-links__link__google{
+    background-image: url('../../img/icons/google_plus-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+.social-links__link__twitter{
+    background-image: url('../../img/icons/w500h5001347632760twitterold.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+}
+.all-content{
+    padding-top: 15px;
+}
+.news {
+    width: 30%;
+    height: 350px;
+    background-color: rgba(150 , 150, 150, 0.8);
+    border-radius: 15px;
+}
+.news-title {
+    font-family: "montserrat";
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.news-block {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.news-block__title {
+    font-family: "montserrat";
+    font-size: 20px;
+    text-align: center;
+    color: #dddddd;
+    font-weight: 500;
+    text-transform: uppercase; 
+}
+.news-block__text, .content-text{
+    font-family: "roboto";
+    font-size: 15px;
+    color: #000000;
+    font-weight: 300;
+}
+.content-wrapper{
+    padding: 20px;
+}
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 10px;
+    overflow-y: scroll;
+}
+.content-title {
+    font-family: "montserrat";
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.content-text {
+    text-align: center;
+}
+.content-image {
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+}
+.footer {
+    height: 50px;
+    background: #000000;
+    width: 100%;
+}
+.footer__copyrights {
+    font-family: "roboto";
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+}
+.footer__copyrights__author {
+    color: #9999ff;
+    font-size: 40px;
 }
 
 

@@ -1,0 +1,36 @@
+@media (max-width: 320px) {
+    .background-fixed{
+        height: 100vh;
+    }
+    .container{
+        max-width: 320px;
+    }
+    .all-content .flex-flow{
+        flex-flow: column nowrap;
+    }
+    .social-links__list {
+        width: auto;
+    }
+    .social-links__list__item{
+        margin-left: 5px;
+        margin-right: 0;
+    }
+    .news{
+        width: 100%;
+        height: 40vh;
+        overflow-y: scroll;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        height: 40vh;
+    }
+    .footer__copyrights {
+        font-size: 15px;
+    }
+    .footer__copyrights__author {
+        font-size: 25px;
+    }
+    
+}
