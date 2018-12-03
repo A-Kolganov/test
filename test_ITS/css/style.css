@@ -2,6 +2,6 @@
 @import url('./helpers/fonts.css');
 
 
-@import url('./components/__1024.css');
-@import url('./components/__768.css');
-@import url('./components/__320.css');
+@import url('./components/1024.css');
+@import url('./components/768.css');
+@import url('./components/320.css');
