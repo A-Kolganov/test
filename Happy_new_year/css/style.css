@@ -14,8 +14,9 @@
 }
 .main-screen {
     background-image: url('../img/background.jpg');
-    background-position: center;
+    background-position: -350px center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     min-width: 1200px;
     height: 100vh;
