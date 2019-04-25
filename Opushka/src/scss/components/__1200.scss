@@ -88,3 +88,53 @@ body {
         } 
     }
 }
+.banner {
+    position: relative;
+
+    &__bgnd-underline{
+        margin-top:1px;
+        height: 3px;
+        width: 100%;
+        background-color: rgba(#d7d6d6, 0.7)
+    }
+    &__center-img{
+        background: url('./../../img/img.png');
+        width: 100%;
+        height: 600px;
+        background-size: contain;
+    }
+    &__img-btn {
+        background-color: #5d0400;
+        border: #5d0400 3px solid;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin: 1px auto;
+        position: absolute;
+        bottom: -11px;
+
+        &--first {
+            left: 47.1%;
+        }
+
+        &--second {
+            left: 49.4%;
+        }
+
+        &--third {
+            left: 51.5%;
+        }
+
+        &:hover{
+            background-color: #fff;
+        }
+    }
+}
+.content {
+    margin-top: 41px;
+    &__menu{
+        width: 100%;
+        height: 60px;
+        background-color: #62a754;
+    }
+}
