@@ -245,7 +245,7 @@ body {
 }
 
 .banner__center-img {
-  background: url("./img/img.png");
+  background: url("../img/img.png");
   width: 100%;
   height: 600px;
   background-size: cover;
@@ -471,21 +471,21 @@ body {
 }
 
 .content__content-info__card:nth-child(3n+1) > .content__content-info__card__img {
-  background-image: url("./img/Слой 16.png");
+  background-image: url("../img/Слой 16.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .content__content-info__card:nth-child(3n+2) > .content__content-info__card__img {
-  background-image: url("./img/Слой 17.png");
+  background-image: url("../img/Слой 17.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .content__content-info__card:nth-child(3n+3) > .content__content-info__card__img {
-  background-image: url("./img/Слой 18.png");
+  background-image: url("../img/Слой 18.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -504,7 +504,7 @@ body {
   height: 15px;
   position: relative;
   left: -27px;
-  background-image: url("./img/Слой 4.png");
+  background-image: url("../img/Слой 4.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -516,7 +516,7 @@ body {
   height: 15px;
   position: relative;
   left: -27px;
-  background-image: url("./img/Слой 5.png");
+  background-image: url("../img/Слой 5.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -528,7 +528,7 @@ body {
   height: 15px;
   position: relative;
   left: -27px;
-  background-image: url("./img/Слой 6.png");
+  background-image: url("../img/Слой 6.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
